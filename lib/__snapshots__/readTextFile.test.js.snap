@@ -1,5 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`should ignore blank text 1`] = `
+Array [
+  "1. How are you doing?",
+  "2. Did you remember to commit?",
+  "3. Did you remember to push?",
+]
+`;
+
 exports[`should return array of text 1`] = `
 Array [
   "1. How are you doing?",

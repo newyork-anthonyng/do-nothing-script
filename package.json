@@ -1,0 +1,40 @@
+{
+  "name": "do-nothing-script",
+  "version": "0.0.0-development",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "yargs": "^14.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "jest": "^24.9.0",
+    "semantic-release": "^15.13.24"
+  },
+  "scripts": {
+    "test": "jest",
+    "test.watch": "jest --watchAll",
+    "lint": "eslint lib/",
+    "semantic-release": "semantic-release"
+  },
+  "keywords": [
+    "automated",
+    "checklist"
+  ],
+  "author": "Anthony Ng <newyork.anthonyng@gmail.com> (http://anthonyng.me)",
+  "license": "MIT",
+  "description": "Automate everything...or just use a checklist",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/newyork-anthonyng/do-nothing-script.git"
+  },
+  "bugs": {
+    "url": "https://github.com/newyork-anthonyng/do-nothing-script/issues"
+  },
+  "bin": {
+    "do-nothing": "./bin/do-nothing.js"
+  }
+}

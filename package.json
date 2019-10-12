@@ -1,6 +1,6 @@
 {
   "name": "do-nothing-script",
-  "version": "0.0.0-development",
+  "version": "2.0.0",
   "main": "index.js",
   "directories": {
     "lib": "lib"
@@ -8,10 +8,7 @@
   "scripts": {
     "test": "jest",
     "test.watch": "jest --watchAll",
-    "lint": "eslint lib/",
-    "semantic-release": "semantic-release",
-    "travis-deploy-once": "travis-deploy-once",
-    "validate": "npm run test && npm run lint"
+    "lint": "eslint lib/"
   },
   "dependencies": {
     "chalk": "^2.4.2",
@@ -19,8 +16,7 @@
   },
   "devDependencies": {
     "eslint": "^6.5.1",
-    "jest": "^24.9.0",
-    "semantic-release": "^15.13.24"
+    "jest": "^24.9.0"
   },
   "keywords": [
     "automated",
